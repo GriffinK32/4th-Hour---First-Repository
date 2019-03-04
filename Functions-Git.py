@@ -68,5 +68,30 @@ def print_sum(x, y):
 
 print_sum(46, 62)
 
+# 4.16.3: Enter A Number using Try & Except
+# Korbin Griffin
+# 2.20.19
 
+try:
+    my_num = int(input('Enter and integer: '))
+    print('Your number:' , my_num)
 
+except ValueError:
+    print('That was not an integer!')
+
+# 4.16.4: Enter Name & Age using the Try and Except Rule
+# Korbin Griffin
+# 2.20.19
+
+name = input('Enter your name: ')
+
+age = -1
+
+try:
+    age = int(input('Enter your age:'))
+
+except ValueError:
+    print('n''That was not an integer for your age')
+
+print('\n''Name:', name)
+print('Age:', age)
