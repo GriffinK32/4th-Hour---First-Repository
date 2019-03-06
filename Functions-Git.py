@@ -103,3 +103,23 @@ except ValueError:
 
 print('\n''Name:', name)
 print('Age:', age)
+
+# Korbin Griffin
+# 1.14.19
+
+
+
+my_number = 10
+
+print ("Guess a number between 1 and 10")
+print("")
+
+guess = int(input("Enter a guess: "))
+
+while guess != my_number:
+    print ("Wrong, guess again")
+    guess = int(input("Enter a guess: "))
+
+print("")
+
+print ("Good job, you got it!")
