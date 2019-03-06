@@ -103,3 +103,12 @@ except ValueError:
 
 print('\n''Name:', name)
 print('Age:', age)
+
+# Program Tracing
+# Korbin Griffin
+
+x = 10
+
+while x > 5:
+    print (x)
+    x = x - 2
