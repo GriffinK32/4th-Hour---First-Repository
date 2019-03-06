@@ -104,6 +104,7 @@ except ValueError:
 print('\n''Name:', name)
 print('Age:', age)
 
+
 # Korbin Griffin
 # 1.14.19
 
@@ -123,3 +124,12 @@ while guess != my_number:
 print("")
 
 print ("Good job, you got it!")
+
+# Program Tracing
+# Korbin Griffin
+
+x = 10
+
+while x > 5:
+    print (x)
+    x = x - 2
